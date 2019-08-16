@@ -172,9 +172,10 @@ a {
 .header {
   display: flex;
   justify-content: center;
+  padding-bottom: 1rem;
 }
 .header h1 {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .header a {
   padding: 0.6rem 1.6rem;
@@ -199,6 +200,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
@@ -239,8 +243,8 @@ footer {
 .home .walk .walk-text .btn {
   display: inline-block;
   text-align: center;
-  padding: 1rem 2rem;
-  background-color: black;
+  padding: 0.8rem 2rem;
+  background-color: #23293B;
   color: white;
   border-radius: 0.5rem;
   font-size: 1.7rem;
@@ -256,15 +260,4 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-body,
-.conatiner,
-nav,
-div,
-header,
-section,
-footer {
-  border: 1px solid red;
-  padding: 2px;
-  margin: 2px;
 }
