@@ -65,6 +65,9 @@
     @media @mobileDevice {
       .flexbox(column);
       flex-direction: column-reverse;
+      padding: 0;
+      margin-left: 10px;
+      margin-right: 10px;
     }
 
     .walk-text {
@@ -83,12 +86,19 @@
 
       .btn {
         .buttonStyle(2rem, .5rem);
+        @media @mobileDevice {
+          width: 100%;
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media @mobileDevice {
+        width: 100%;
+        margin-left: 0;
+      }
       
       img {
         width: 100%;
