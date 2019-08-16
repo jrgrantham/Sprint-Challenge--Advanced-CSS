@@ -1,14 +1,20 @@
 // Mixins Here
 
-.buttonStyle(@fontColor: white) {
+.flexbox(@direction: row) {
+    display: flex;
+    flex-direction: @direction;
+}
+
+.buttonStyle() {
     display: inline-block;
     text-align: center;
     padding: 0.8rem 2rem;
     background-color: @ebony-clay;
-    color: @fontColor;
+    color: white;
     border-radius: 0.5rem;
     font-size: 1.7rem;
     &:hover {
-        background-color: red;
+        background-color: white;
+        color: @ebony-clay;
     }
 }
