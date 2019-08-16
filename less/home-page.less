@@ -39,6 +39,7 @@
       height: 100%;
       @media @mobileDevice{
         width: 100%;
+        margin: 20px;
       }
     }
   }
@@ -66,8 +67,7 @@
       .flexbox(column);
       flex-direction: column-reverse;
       padding: 0;
-      margin-left: 10px;
-      margin-right: 10px;
+      margin: 10px;
     }
 
     .walk-text {
@@ -86,8 +86,11 @@
 
       .btn {
         .buttonStyle(2rem, .5rem);
+        width: 100px;
         @media @mobileDevice {
           width: 100%;
+          height: 50px;
+          justify-content: center;
         }
       }
     }
@@ -97,7 +100,12 @@
       margin-left: 4%;
       @media @mobileDevice {
         width: 100%;
-        margin-left: 0;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
       }
       
       img {
