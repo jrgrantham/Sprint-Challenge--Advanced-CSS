@@ -1,1 +1,14 @@
 // Mixins Here
+
+.buttonStyle(@fontColor: white) {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: @fontColor;
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    &:hover {
+        background-color: red;
+    }
+}
