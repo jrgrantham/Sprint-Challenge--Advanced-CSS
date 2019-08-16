@@ -9,13 +9,13 @@
     border-radius: @radius;
 }
 
-.buttonStyle() {
+.buttonStyle(@padding: 2rem, @borderRad: 0.5rem) {
     display: inline-block;
     text-align: center;
-    padding: 0.8rem 2rem;
+    padding: 0.8rem @padding;
     background-color: @ebony-clay;
     color: white;
-    border-radius: 0.5rem;
+    border-radius: @borderRad;
     font-size: 1.7rem;
     &:hover {
         background-color: white;
